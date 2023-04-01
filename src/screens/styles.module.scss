@@ -1,0 +1,13 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.heroTextCol {
+  background-image: url('../assets/img/hero-shape.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-top: 146px;
+  padding-left: 115px;
+  @media screen and (max-width: 1000px) {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+}

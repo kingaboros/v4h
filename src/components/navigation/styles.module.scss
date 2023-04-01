@@ -7,7 +7,6 @@
 .navContainer {
   @extend .container;
   max-width: 1400px;
-  min-width: 80%;
   padding-right: 0;
 }
 
@@ -57,6 +56,10 @@
   font-size: 20px;
   color: #223645;
   margin-right: 45px;
+  &:hover {
+    cursor: pointer;
+    color: #fa4753 !important;
+  }
 }
 
 .navLink {

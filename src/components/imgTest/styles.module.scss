@@ -1,0 +1,41 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  color: #fa4753;
+}
+
+.mainTitle {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 138%;
+  color: #223645;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #647589;
+}
+
+.imgCol {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.btnDiv {
+  display: flex;
+}
+
+.heroDiv {
+  @extend .container;
+  max-width: 100% !important;
+}
+
+.sectionImg {
+  width: 100%;
+}

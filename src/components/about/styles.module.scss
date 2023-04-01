@@ -1,0 +1,43 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.aboutSection {
+  margin-top: 135px;
+}
+
+.aboutRow {
+  flex-direction: row-reverse;
+}
+
+.aboutTextCol {
+  padding: 0 40px 0 30px;
+}
+
+.iconsSection {
+  padding: 50px 0 10px 30px;
+}
+
+.icon {
+  padding-right: 20px;
+}
+
+.iconTitle {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 190%;
+  color: #223645;
+  padding-left: 25px;
+}
+
+.iconDesc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #647589;
+  padding-left: 25px;
+}
+
+.progressDiv {
+  width: 150px;
+  height: auto;
+  padding-bottom: 50px;
+}

@@ -1,9 +1,12 @@
 import './App.css';
+import Navigation from './components/navigation/Navigation';
+import Homepage from './screens/Homepage';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Typescript project template</h1>
+    <div className="app">
+      <Navigation />
+      <Homepage />
     </div>
   );
 }

@@ -1,0 +1,75 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.navbarContainer {
+  height: 90px;
+}
+
+.navContainer {
+  @extend .container;
+  max-width: 1400px;
+  min-width: 80%;
+  padding-right: 0;
+}
+
+.logoImg {
+  width: 100px;
+  height: auto;
+  @extend .d-inline-block;
+  @extend .align-top;
+}
+
+.navbarCollapse {
+  flex-grow: unset;
+}
+
+.toggleBtn {
+  @extend .navbar-toggler;
+  margin-right: 20px;
+}
+
+.navBtnDiv {
+  background-color: #fa4753;
+  padding: 12px 5px 0px;
+  width: 270px;
+  height: 90px;
+}
+
+.navBtn {
+  color: white;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.btnIcon {
+  font-size: 1.7em;
+  padding-right: 24px;
+}
+
+.btnText {
+  text-align: left;
+}
+
+.searchIcon {
+  font-size: 20px;
+  color: #223645;
+  margin-right: 45px;
+}
+
+.navLink {
+  @extend .nav-link;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #223645 !important;
+  margin-right: 40px;
+  &:active {
+    color: #fa4753 !important;
+  }
+  &:hover {
+    color: #fa4753 !important;
+  }
+}
